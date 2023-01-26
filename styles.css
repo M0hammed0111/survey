@@ -1,0 +1,70 @@
+body {
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    background: linear-gradient(#91c3e5, #dcdbda);
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: rgba(36, 41, 36, 0.2);
+}
+
+form p {
+    text-align: unset;
+}
+
+form label {
+    display: block;
+    margin: 1.5rem auto;
+}
+
+form #name,
+#email,
+#number,
+#dropdown,
+textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    border: none;
+}
+
+form fieldset label {
+    margin: unset;
+}
+
+form fieldset {
+    border: none;
+    padding: 0;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    background-color: rgb(11, 154, 11);
+    color: #dcdbda;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    border: none;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: rgb(8, 107, 8);
+}
